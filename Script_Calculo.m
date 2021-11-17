@@ -7,7 +7,7 @@
 %Notes           : Requires the Octave application and graphing on the command line 
 
 
-%Exercise 1°
+%Exercise 1Â°
 syms x
 x=(-20:1:20);
 disp ('valor de la funcion');
@@ -22,13 +22,13 @@ plot (x, gx);
 
 grid on;
 %Titulo
-title('FUNCION PROBLEMA 1');
+title('FUNCION PROBLEMA 1Â°');
 %Etiqueta para x
 xlabel('VALOR DE   X (DOMINIO)');
 %Etiqueta para y
 ylabel('g(x)');
 
-%Exercise 2°
+%Exercise 2Â°
 syms x
 x=[-15:1:20]
 disp ('valor de la funcion');
@@ -48,7 +48,7 @@ xlabel('VALOR DE   X (DOMINIO)');
 ylabel('f(x)');
 
 
-%Exercise 3°
+%Exercise 3Â°
 syms r
 r=[-30:1:-1]
 disp ('valor de la funcion');
@@ -63,14 +63,14 @@ plot (r, vr);
 
 grid on;
 %Titulo
-title('FUNCION PROBLEMA 5');
+title('FUNCION PROBLEMA 3Â°');
 %Etiqueta para x
 xlabel('VALOR DE  R (DOMINIO)');
 %Etiqueta para y
 ylabel('v(r)');
 
 
-%Exercise 4°
+%Exercise 4Â°
 syms x
 x=(0:1:40);
 disp ('valor de la funcion');
@@ -92,13 +92,13 @@ ylabel('h(x)');
 
 
 
-%Exercise 5°
+%Exercise 5Â°
 pkg load symbolic
 syms x
 x=(-32:1:45);
 disp ('valor de la funcion');
-disp ('r(x)=³?x^3');
-disp ('sea r: (-32,45)--> R dada por r(x)=³?x^3');
+disp ('r(x)=Â³?x^3');
+disp ('sea r: (-32,45)--> R dada por r(x)=Â³?x^3');
 disp ('Esta es una funcion (INYECTIVA y SOBREYECTIVA) es decir (BIYECTIVA), ya que partiendo del conjunto de salida cada elemento en la llegada tiene su correspondencia y son ocupados los elementos negativos de llegada en el eje "Y" ');
 rx=(cbrt(x.^3));
 disp ('Grafica de la funcion');
@@ -106,7 +106,7 @@ plot (x, rx);
 
 grid on;
 %Titulo
-title('FUNCION PROBLEMA 5°');
+title('FUNCION PROBLEMA 5Â°');
 %Etiqueta para x
 xlabel('VALOR DE   X (DOMINIO)');
 %Etiqueta para y
@@ -114,7 +114,7 @@ ylabel('r(x)');
 
 
 
-%Exercise 6°
+%Exercise 6Â°
 syms x
 x=[-20:1:20]
 disp ('valor de la funcion');
@@ -127,7 +127,7 @@ plot (x, fx);
 
 grid on;
 %Titulo
-title('FUNCION PROBLEMA 6°');
+title('FUNCION PROBLEMA 6Â°');
 %Etiqueta para x
 xlabel('VALOR DE  X (DOMINIO)');
 %Etiqueta para y
