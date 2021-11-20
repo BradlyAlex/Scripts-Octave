@@ -5,14 +5,14 @@
 % Date			    : 20211119
 % Version		    : 1
 % Usage			    : C:\Users\Proo\Desktop\Respaldo\Documents\SCRIPS OCTAVE
-% Notes			    : Requiere aplicación octave 
+% Notes			    : Requiere aplicaciÃ³n octave 
 
 
 
 
 
 
-%Ejercicio_1°
+%Ejercicio_1Â°
 syms x
 x=(-4:0.1:4);
 disp ('valor de la funcion');
@@ -48,7 +48,7 @@ plot (x, fx);
 
 grid on;
 %Titulo
-title('PROBLEMA 2°');
+title('PROBLEMA 2Â°');
 %Etiqueta para x
 xlabel('Eje para"X"');
 %Etiqueta para y
@@ -64,11 +64,11 @@ ylabel('Eje para "Y"');
 syms x
 x=(-5:1:5);
 disp ('valor de la funcion');
-disp ('f(x)=³?x^2');
+disp ('f(x)=Â³?x^2');
 disp ('f(x)= x^2/3');
-disp ('Esta es una funcion radical dado su exponente fraccionario');
+disp ('Esta es una funcion radical debido a su  exponente fraccionario');
 fx=(cbrt(x.^2))
-disp ('Graficacion de la funcion');
+disp ('Grafica de la funcion');
 plot (x, fx);
 
 
@@ -91,15 +91,15 @@ disp ('valor de la funcion');
 disp ('f(x)=2 x^2+x^4+x');
 disp ('De manera factorizada quedaria asi la siguiente expresion: f(x)=(2x+x.^3+1)(x)');
 disp ('Esta es una funcion polinomica');
-disp ('En el punto 0 del eje Y la "X" toma el valor de cero en el plano cartesiano');
+disp ('En el punto 0 del eje Y la "X" toma como valor 0 en el plano cartesiano');
 fx=(2*(x.^2)+(x.^4)+x);
-disp ('Graficacion de la funcion');
+disp ('Grafica de la funcion');
 plot (x, fx);
 
 
 grid on;
 %Titulo
-title('PROBLEMA 4°');
+title('PROBLEMA 4Â°');
 %Etiqueta para x
 xlabel('Eje para "X"');
 %Etiqueta para y
@@ -115,7 +115,7 @@ x=(-5:1:5);
 disp ('valor de la funcion');
 disp ('(f(x)=(2*x)+1');
 disp ('Esta es una funcion polinomica');
-disp ('En el punto 1 del eje Y la "X" toma el valor de cero en el plano carteciano');
+disp ('En el punto 1 del eje Y la "X" toma como valor 0 en el plano cartesiano');
 fx=((2*x)+1);
 disp ('Grafica de la funcion');
 plot (x, fx);
